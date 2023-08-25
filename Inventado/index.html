@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Ahorcado</h1>
+
+    <div id="seccion1">
+        <label for="palabraoculta">ingrese la palabrita</label>
+        <input type="password" name="" id="palabraoculta">
+        <button onclick="jugar()">Comenzar</button>
+    </div>
+
+    <div style="display: none;" id="seccion2">
+        <div><label for="palabra">palabra</label>
+            <input type="text" name="" id="palabra">
+        </div>
+        <div><label for="letra">ingrese una letra</label>
+            <input type="text" name="" id="letra" maxlength="1">
+            <button onclick="adivinar()" id="botonadivinar">adivinar</button>
+        </div>
+        <div><label for="noestan">letras que no estan</label>
+            <input type="text" name="" id="noestan" readonly>
+        </div>
+        <div><label for="intentos">Intentos</label>
+            <input type="number" value="7" id="intentos">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

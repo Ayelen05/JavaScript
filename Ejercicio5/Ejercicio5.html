@@ -1,0 +1,30 @@
+<!--Construir un programa que simule un menú de opciones para realizar las cuatro
+operaciones aritméticas básicas (suma, resta, multiplicación y división) con dos valores
+numéricos enteros. El usuario, además, debe especificar la operación con el primer
+carácter de la operación que desea realizar: ‘S' o ‘s’ para la suma, ‘R’ o ‘r’ para la resta, ‘M’
+o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Ejercicio5.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <p>Ingrese el primer numero</p>
+    <input type="number" placeholder="Ingrese el primer numero" id="num1">
+    <p>Ingrese el segundo numero</p>
+    <input type="number"  placeholder="ingrese el segundo numero" id="num2">
+    <p>Ingrese tipo de operacion</p>
+    <select onchange="Operacion()" name="operacion" id="op" > <!--Llama a la operacion con el onchange -->
+        <option> Elegi la operacion</option>
+    <option >suma</option>
+    <option >resta</option>
+    <option >multiplicacion</option>
+    <option >division</option>     
+    </select>
+   <!-- <button  onclick="Operacion()" > Calcular </button>-->
+    <p id="resultadito"> </p>
+</body>
+</html>

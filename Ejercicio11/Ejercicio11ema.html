@@ -1,0 +1,58 @@
+<!--Escribir una función que reciba un String y devuelva la palabra más larga.
+String Ejemplo: “Guia de JavaScript”
+Resultado esperado : “JavaScript”-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Ejercicio 11</title>
+</head>
+
+<body>
+
+    <h2>ENCONTRAR LA/S PALABRAS MÁS LARGAS</h2>
+
+    <div class="input-group mb-3">
+        <input type="text" id="frase" class="form-control" placeholder="Coloque aquí la Frase"
+            aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button onclick="SepararFrase()" class="btn btn-outline-secondary" type="button">AVERIGUE LA PALABRA MAS
+                LARGA</button>
+        </div>
+    </div>
+    <strong>
+        <p id="palabra"></p>
+    </strong>
+
+
+    <div class="input-group mb-3">
+        <input type="text" id="frase1" class="form-control" placeholder="Coloque aquí la Frase"
+            aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button onclick="palabraMasLarga()" class="btn btn-outline-danger" type="button">AVERIGUE LAS PALABRAS
+                MAS LARGAS</button>
+        </div>
+    </div>
+    <strong>
+        <p id="palabra1"></p>
+    </strong>
+
+
+    <!-- <p>Ingrese la Frase</p>
+    <input type="text" id="frase">
+    <button onclick="SepararFrase()"> AVERIGUE LA PALABRA MAS LARGA</button>
+    <p id="palabra"></p> 
+
+    <p>Ingrese la Frase</p>
+    <input type="text" id="frase1">
+    <button onclick="palabraMasLarga()"> AVERIGUE LAS PALABRAS MAS LARGAS</button>
+    <p id="palabra1"></p>-->
+</body>
+
+</html>
